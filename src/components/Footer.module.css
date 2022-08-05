@@ -1,0 +1,48 @@
+footer {
+    width : 100%;
+    height : 270px;
+    padding : 20px;
+    padding-top : 40px;
+    background-color : rgb(40, 50, 60);
+}
+footer ul {
+    width : 100%;
+}
+.sns li {
+    display : inline-block;
+    margin-right : 20px;
+}
+.navi li {
+    display : inline-block;
+    margin-right : 20px;
+    margin-top : 20px;
+}
+.navi li a {
+    color : rgb(197, 200, 206);
+}
+.navi li:nth-of-type(5) a, .navi li:nth-of-type(6) a, 
+.navi li:nth-of-type(7) a {
+    font-weight : 900;
+}
+.con {
+    width : 50%;
+    box-sizing : border-box;
+    float : left;
+    margin-top : 30px;
+}
+.con p {
+    color : rgb(90, 111, 124);
+    margin-bottom : 10px;
+    font-size : 14px;
+}
+.company {
+    width : 50%;
+    box-sizing : border-box;
+    float : left;
+    margin-top : 30px;
+}
+.company p {
+    color : rgb(90, 111, 124);
+    margin-bottom : 10px;
+    font-size : 14px;
+}
